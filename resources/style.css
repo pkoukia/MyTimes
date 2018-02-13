@@ -32,6 +32,8 @@ nav {
 body {
   color: black;
   margin: 0;
+  font-family: "Georgia";
+  font-size: 15px;
 }
 
 header nav {
@@ -55,14 +57,17 @@ nav span {
 .content {
   display: flex;
   margin: 0 auto 78px auto;
-  width: 1232px;
+  width: 100%;
   padding-top: 116px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .column {
   display: flex;
   flex-direction: row;
   margin-right: 32px;
+  justify-content: space-between;
 }
 
 column.large {
