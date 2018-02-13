@@ -1,3 +1,37 @@
-p {
-  color: red;
+header {
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+
+.logo {
+  color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+nav {
+  display: block;
+}
+
+body {
+  color: black;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+a {
+  color: black;
 }
