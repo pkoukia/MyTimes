@@ -20,6 +20,7 @@ header {
   padding-left: 30px;
 }
 
+
 nav {
   display: block;
 }
@@ -34,4 +35,34 @@ header nav {
 
 a {
   color: black;
+}
+
+div {
+  border: 1px solid black;
+  display: block;
+}
+
+.content {
+  display: flex;
+  margin: 0 auto;
+  width: 1232px;
+  padding-top: 116px;
+}
+
+column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+column.large {
+  width: 630px;
+}
+
+column.medium {
+  width: 300px;
+}
+
+column.small {
+  width: 240px;
 }
