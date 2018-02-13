@@ -1,3 +1,7 @@
+html {
+  display: block;
+}
+
 header {
   font-family: verdana;
   font-size: 14px;
@@ -27,6 +31,7 @@ nav {
 
 body {
   color: black;
+  margin: 0;
 }
 
 header nav {
@@ -42,9 +47,14 @@ div {
   display: block;
 }
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 .content {
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 78px auto;
   width: 1232px;
   padding-top: 116px;
 }
