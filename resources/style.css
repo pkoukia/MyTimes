@@ -59,20 +59,23 @@ nav span {
   padding-top: 116px;
 }
 
-column {
+.column {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-right: 32px;
 }
 
 column.large {
   width: 630px;
+  flex-direction: column;
 }
 
 column.medium {
   width: 300px;
+  flex-direction: column;
 }
 
 column.small {
   width: 240px;
+  flex-direction: column;
 }
