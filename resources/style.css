@@ -10,6 +10,46 @@ a {
   color: black;
 }
 
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.narrative {
+  margin-top: 15px;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+}
+
 /* Header */
 nav span {
   display: inline-block;
@@ -53,9 +93,81 @@ header nav {
 
 /* main content */
 
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
 
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
 
+/* First News Column */
 
+.column.large {
+  width: 630px;
+}
+
+.lead-story .image-content {
+  background-image: url("img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+}
+
+.lead-story .image-content span {
+  margin-left: 20px;
+}
+
+.fall-cancelled.image-content {
+  background-image: url("img-story-2.png")
+}
+
+.pop-culture.image-content {
+  background-image: url("img-story-3.png")
+}
+
+/* Second News Column */
+
+.column.medium {
+  width: 300px;
+}
+
+.cat.image-content {
+  background-image: url("img-story-1.png")
+}
+
+/* Third News Column */
+
+.column.small {
+  width: 240px;
+}
+
+img.cookie {
+  height: 240px;
+}
+
+.news-bites h3 {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites .bite {
+  display: block;
+  padding: 11px 20px;
+  background-color: whitesmoke;
+  border-bottom: 1px solid black;
+  font-size: 12px;
+  font-family: "Verdana", sans-serif;
+  color: dimgray;
+}
 /* Footer */
 
 footer {
