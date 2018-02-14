@@ -1,52 +1,5 @@
-html {
-  display: block;
-}
-
-header {
-  font-family: verdana;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid black;
-  background-color: white;
-  position: fixed;
-  width: 100%;
-  height: 80px;
-  z-index: 1;
-}
-
-.logo {
-  color: mediumaquamarine;
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  padding-left: 30px;
-}
-
-
-nav {
-  display: block;
-}
-
-body {
-  color: black;
-  margin: 0;
-  font-family: "Georgia";
-  font-size: 15px;
-}
-
-header nav {
-  padding-right: 40px;
-}
-
 a {
   color: black;
-}
-
-div {
-  border: 1px solid black;
-  display: block;
 }
 
 nav span {
@@ -54,33 +7,20 @@ nav span {
   padding: 20px 10px;
 }
 
-.content {
+header {
   display: flex;
-  margin: 0 auto 78px auto;
-  width: 100%;
-  padding-top: 116px;
   align-items: center;
-  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 14px;
 }
 
-.column {
+.logo {
   display: flex;
-  flex-direction: row;
-  margin-right: 32px;
-  justify-content: space-between;
-}
-
-column.large {
-  width: 630px;
-  flex-direction: column;
-}
-
-column.medium {
-  width: 300px;
-  flex-direction: column;
-}
-
-column.small {
-  width: 240px;
-  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
 }
